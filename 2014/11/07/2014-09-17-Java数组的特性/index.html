@@ -3,17 +3,22 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Li7nux&#39;s Note</title>
+  <title>Java中数组的特性 | Li7nux&#39;s Note</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="我的学习笔记">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Li7nux&#39;s Note">
-<meta property="og:url" content="http://note.craftcoder.club/index.html">
+  <meta name="description" content="循环与递归的特点以及简单的转换。">
+<meta name="keywords" content="数组,java">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java中数组的特性">
+<meta property="og:url" content="http://note.craftcoder.club/2014/11/07/2014-09-17-Java数组的特性/index.html">
 <meta property="og:site_name" content="Li7nux&#39;s Note">
-<meta property="og:description" content="我的学习笔记">
+<meta property="og:description" content="循环与递归的特点以及简单的转换。">
+<meta property="og:image" content="http://note.craftcoder.club/images/20140917/01.jpg">
+<meta property="og:image" content="http://note.craftcoder.club/images/20140917/02.jpg">
+<meta property="og:updated_time" content="2017-09-08T10:03:08.087Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Li7nux&#39;s Note">
-<meta name="twitter:description" content="我的学习笔记">
+<meta name="twitter:title" content="Java中数组的特性">
+<meta name="twitter:description" content="循环与递归的特点以及简单的转换。">
+<meta name="twitter:image" content="http://note.craftcoder.club/images/20140917/01.jpg">
   
     <link rel="alternate" href="/atom.xml" title="Li7nux&#39;s Note" type="application/atom+xml">
   
@@ -70,121 +75,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-README" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/09/15/README/" class="article-date">
-  <time datetime="2017-09-15T02:29:24.859Z" itemprop="datePublished">2017-09-15</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- Table of Contents -->
-        
-        <div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>浙江省公众信息产业有限公司
-v0.5.6,2017-08-10
-:title: Widget bill Api 接口文档
-:doctype: book
-:encoding: utf-8
-:lang: zh-CN
-:toc: left
-:toclevels: 4
-:numbered:</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_introduction">Introduction</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>This application is intended to run inside of a Java EE application server such as
-JBoss Wildfly. It demonstrates Spring Boot&#8217;s auto-configuration defaulting for a
-container-managed <code>TransactionManager</code> and <code>DataSource</code>. This example unfortunately
-requires a fully configured Wildfly installation. You&#8217;ll need to configure a PostgreSQL
-XA <code>DataSource</code> and an XA <code>ConnectionFactory</code> in the Java EE application server&#8217;s
-JNDI machinery.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_setup">Setup</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://note.craftcoder.club/2017/09/15/README/" data-id="cj7lahn5w0000lgcdaycw2kqq" class="article-share-link">分享</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
- 
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/07/05/hello-world/" class="article-date">
-  <time datetime="2017-07-05T10:29:03.913Z" itemprop="datePublished">2017-07-05</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/07/05/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- Table of Contents -->
-        
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://note.craftcoder.club/2017/07/05/hello-world/" data-id="cj7lag4sa000224cdgwzi0ehe" class="article-share-link">分享</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
- 
-
-
-  
-    <article id="post-2014-09-17-Java数组的特性" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-2014-09-17-Java数组的特性" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2014/11/07/2014-09-17-Java数组的特性/" class="article-date">
   <time datetime="2014-11-07T00:55:29.000Z" itemprop="datePublished">2014-11-07</time>
@@ -201,8 +92,8 @@ JNDI machinery.</p>
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/11/07/2014-09-17-Java数组的特性/">Java中数组的特性</a>
+    <h1 class="article-title" itemprop="name">
+      Java中数组的特性
     </h1>
   
 
@@ -257,57 +148,83 @@ Object[] objectStr = arrStr;
     </footer>
   </div>
   
-</article>
- 
-
-
-  
-    <article id="post-Java 8" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/11/07/Java 8/" class="article-date">
-  <time datetime="2014-11-07T00:55:29.000Z" itemprop="datePublished">2014-11-07</time>
-</a>
     
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Exercise/">Exercise</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/11/07/Java 8/">hello-world</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-        
-          <p class="article-more-link">
-            <a href="/2014/11/07/Java 8/#more">继续阅读全文 »</a>
-          </p>
-        
-      
+ <script src="/jquery/jquery.min.js"></script>
+  <div id="random_posts">
+    <h2>推荐文章</h2>
+    <div class="random_posts_ul">
+      <script>
+          var random_count =4
+          var site = {BASE_URI:'/'};
+          function load_random_posts(obj) {
+              var arr=site.posts;
+              if (!obj) return;
+              // var count = $(obj).attr('data-count') || 6;
+              for (var i, tmp, n = arr.length; n; i = Math.floor(Math.random() * n), tmp = arr[--n], arr[n] = arr[i], arr[i] = tmp);
+              arr = arr.slice(0, random_count);
+              var html = '<ul>';
+            
+              for(var j=0;j<arr.length;j++){
+                var item=arr[j];
+                html += '<li><strong>' + 
+                item.date + ':&nbsp;&nbsp;<a href="' + (site.BASE_URI+item.uri) + '">' + 
+                (item.title || item.uri) + '</a></strong>';
+                if(item.excerpt){
+                  html +='<div class="post-excerpt">'+item.excerpt+'</div>';
+                }
+                html +='</li>';
+                
+              }
+              $(obj).html(html + '</ul>');
+          }
+          $('.random_posts_ul').each(function () {
+              var c = this;
+              if (!site.posts || !site.posts.length){
+                  $.getJSON(site.BASE_URI + 'js/posts.js',function(json){site.posts = json;load_random_posts(c)});
+              } 
+               else{
+                load_random_posts(c);
+              }
+          });
+      </script>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://note.craftcoder.club/2014/11/07/Java 8/" data-id="cj7lag4sp000424cdrjkqde9w" class="article-share-link">分享</a>
-      
-      
-      
-    </footer>
   </div>
+
+    
+<nav id="article-nav">
+  
+    <a href="/2017/07/05/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2014/11/07/Java 8/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">hello-world</div>
+    </a>
+  
+</nav>
+
   
 </article>
  
-
-
+     
+  <div class="comments" id="comments">
+    
+     
+       
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+       
+      
+      
+  </div>
+ 
   
 
 </section>
@@ -315,100 +232,32 @@ Object[] objectStr = arrStr;
     <aside id="sidebar">
   
     
-  <div class="widget-wrap">
-     
-        <h3 class="follow-title ">Follow me</h3>
-     
-    <div class="widget follow">
-      
-              <a class="github" aria-hidden="true" href="https://github.com/li7nux" target="_blank" title="Github"></a>
-      
-      
-            <a class="weibo" aria-hidden="true"  href="http://weibo.com/li7nux" target="_blank" title="微博"></a>
-      
-      
-              <a class="zhihu" aria-hidden="true"  href="http://www.zhihu.com/people/li7nux" target="_blank" title="知乎"></a>
-      
-      
-            <a class="email" aria-hidden="true"  href="mailto:mailto:Li7nux@gmail.com" target="_blank" title="邮箱"></a>
-      
-    </div>
-  </div>
 
+  
+    
+    <div class="widget-wrap">
+    
+      <div class="widget" id="toc-widget-fixed">
+      
+        <strong class="toc-title">文章目录</strong>
+        <div class="toc-widget-list">
+              <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Java中的数组是对象吗？"><span class="toc-number">1.</span> <span class="toc-text">Java中的数组是对象吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Java中数组的类型"><span class="toc-number">2.</span> <span class="toc-text">Java中数组的类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Java中数组的继承关系"><span class="toc-number">3.</span> <span class="toc-text">Java中数组的继承关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Java中数组的另一种“继承”关系"><span class="toc-number">4.</span> <span class="toc-text">Java中数组的另一种“继承”关系</span></a></li></ol>
+          </div>
+      </div>
+    </div>
+
+  
+    
 
   
     
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title categories">分类</h3>
-    <div class="widget" id="categories">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Exercise/">Exercise</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/java/">java</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/java/数组/">数组</a><span class="category-list-count">1</span></li></ul></li></ul>
-    </div>
-  </div>
-
+  
+    
 
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title tagcloud">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/java/" style="font-size: 14px;">java</a> <a href="/tags/数组/" style="font-size: 14px;">数组</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title recent-posts">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017/09/15/README/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2017/07/05/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2014/11/07/2014-09-17-Java数组的特性/">Java中数组的特性</a>
-          </li>
-        
-          <li>
-            <a href="/2014/11/07/Java 8/">hello-world</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title archive">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">2</span></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-<div class="widget-wrap">
-    <h3 class="widget-title">Links</h3>
-    <div class="widget">
-        <ul>
-            
-            <li>
-                <a href="http://note.craftcoder.club">Li7nux&#39;s blog</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
   
     <!--微信公众号二维码-->
 
